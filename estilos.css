@@ -37,10 +37,11 @@
     padding: 0.5cm 0cm;
     padding-left: 0;
     padding-right: 0;
-    background: rgb(18, 141, 241);
+    background: rgb(67, 145, 145);
     font-size: 25px;
-    font-weight: bold;
+    font-family: sans-serif;
     margin: 0;
+    color: #323335;
 }
 .main-nav__item
 {
@@ -52,7 +53,7 @@
 }
 .main-nav__item a
 {
-    color: black;
+    color: #323335;
     padding: 5px;
     border-radius: 2px;
     text-decoration: none;
@@ -66,13 +67,13 @@
     text-decoration: none;
     background-color: black;  
 }
-.main-nav__item2 a{
+/*.main-nav__item2 a{
     color: black;
     padding: 5px;
     border-radius: 2px;
     text-decoration: none;
     text-align: right;
-}
+} */
 .main-nav__item2{
     display: inline-block;
 }
@@ -89,13 +90,12 @@
     color: blue;
 }
 
-.main-nav__item2 a:hover{
+/*.main-nav__item2 a:hover{
     color: white;
-}
+}*/
 main{
     width: 100%;
     height: 500px;
-    border: 10px solid grey;
     padding: 20px 35px;
-    background: rgb(0, 102, 255);
+    background: rgb(67, 145, 145);
 }
